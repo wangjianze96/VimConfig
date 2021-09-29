@@ -12,5 +12,12 @@ set showcmd
 set noswapfile
 set nowrap
 set encoding=utf-8
-set statusline+=%F
+" statusline config
+set statusline=
+set statusline+=\ %F
+set statusline+=\ %m
+set statusline+=%=
+set statusline+=%y
+set statusline+=\ %p%%
+set statueline+=\ Ln\ %l\ Col\ %c\ 
 set laststatus=2
